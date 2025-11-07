@@ -1,13 +1,22 @@
-requests
-urllib3
-tqdm
-bs4
-textblob
-nltk
-matplotlib
-pandas
-twint
-numpy
-wordcloud
-pillow
-lxml
+# Core dependencies
+requests>=2.32.3
+urllib3>=2.2.3
+tqdm>=4.67.1
+beautifulsoup4>=4.12.3
+textblob>=0.18.0
+nltk>=3.9.1
+
+# Data analysis and visualization
+matplotlib>=3.9.4
+pandas>=2.2.3
+numpy>=2.2.1
+wordcloud>=1.9.4
+pillow>=11.1.0
+lxml>=5.3.0
+
+# Twitter scraping (alternative to deprecated twint)
+# Note: Original project used twint which is now deprecated
+# For Twitter functionality, consider using tweepy with API keys
+aiohttp>=3.11.11
+nest-asyncio>=1.6.0
+snscrape>=0.7.0.20230622
